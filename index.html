@@ -11,13 +11,31 @@
         <img src="https://assets2.teacheron.com/resources/assets/img/customImages/teacheron-transparent-small.png" alt="" class="scale-[0.8]">
         <div class="w-[50%]  flex justify-between items-center" >
             <a href="">Store</a>
-            <a href="">Find Tutors</a>
-            <a href="">Find Tutor Jobs</a>
+            <div class="relative" id="find-tutor-nav-item" > 
+                <a href="" class="" id="find-tutor-anchor" >Find Tutors</a>
+                <div id="find-tutor-extra-items" class="absolute w-[12vw] flex flex-col border-t-2 border-blue-400 shadow-md text-sm hidden" >
+                    <a href="" class="p-2 hover:bg-gray-200 border-b-[1px] border-gray-300" >Request a Tutor</a>
+                    <a href="" class="p-2 hover:bg-gray-200 border-b-[1px] border-gray-300 " >All Tutors</a>
+                    <a href="" class="p-2 hover:bg-gray-200 border-b-[1px] border-gray-300" >Online Tutors</a>
+                    <a href="" class="p-2 hover:bg-gray-200 border-b-[1px] border-gray-300">Home Tutors</a>
+                </div>
+            </div>
+            <div class="relative" >
+                <a href="">Find Tutor Jobs</a>
+                <div class="bg-red-400 absolute hidden" >
+                    <a href="">All Tutor jobs</a>
+                    <a href="">Online Tutor jobs</a>
+                    <a href="">Home Tutor jobs</a>
+                </div>
+            </div>
             <a href="">Assignment help</a>
             <button class="border-[#17a085] border-[1px] px-5 py-2" >Login</button>
             <button class="bg-[#17a085] px-5 py-2 text-white" >Request a tutor</button>
         </div>
     </nav>
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
