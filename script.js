@@ -25,11 +25,11 @@ findTutorNavItem[0].addEventListener("mouseout" , ()=>{
 findTutorNavItem[1].addEventListener("mouseover" , ()=>{
     showFindTutorItemsDiv = true
     if(showFindTutorItemsDiv){
-        finctutorItemsDiv[1].style.display = "flex"
+        finctutorItemsDiv[1].style.display = "flexx"
     }
     console.log(showFindTutorItemsDiv)
 })
-
+ 
 findTutorNavItem[1].addEventListener("mouseout" , ()=>{
     showFindTutorItemsDiv = false
     if(!showFindTutorItemsDiv){
