@@ -23,6 +23,11 @@
     padding: 5px;
 }
 
+#teaching{
+    font-size: 2em;
+    color: black;
+}
+
 .outer{
     max-width: 75%;
     margin: auto;
@@ -52,15 +57,70 @@
 }
 
 .outer > .right{
-    margin-left: 2vw;
+    margin-left: 1vw;
 }
 
 .outer > .right >.first{
-    display: inline;
+    margin-bottom: 20px;
 }
 
-.outer > .right >.first >img{
-    height: 15vh;
-    width: 10vw;
-    display: inline;
+.outer >.right >.first > a{
+    font-size: 1.5em;
+    color: rgb(52,152,219);
+}
+
+.outer > .right >.first >.img-and-text{
+    display: flex;
+    padding-right: 20vh;
+}
+
+.outer > .right >.first >.img-and-text >.img{
+    width: 50%;
+}
+
+.outer > .right >.first >.img-and-text >.text{
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.outer > .right >.first >.img-and-text >.text >.subjects{
+    display: flex;
+}
+
+.outer > .right >.first >.img-and-text >.text >.subjects >.sub{
+    margin-right: 10px;
+}
+
+.outer > .right >.first >.img-and-text >.text >.subjects >.list-of-sub{
+    color: rgb(52,152,219);
+    font-size: 0.9em;
+}
+
+.end{
+    display: flex;
+    background-color: rgb(34,34,34);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.end >.resources{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.7em;
+    padding-top: 20px;
+}
+
+.end >.resources >p{
+    border-bottom: 1px solid rgb(114,192,161);
+    font-weight: bold;
+}
+
+.end >.resources >a{
+    padding-bottom: 5px;
+    font-size: 0.8em;
 }
