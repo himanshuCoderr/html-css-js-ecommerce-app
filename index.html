@@ -40,7 +40,16 @@
         <div class="p-12 rounded-2xl px-[100px]" style="background-color:#000000a0; " >
             <h2 class="text-3xl text-white mb-2">Find online teachers and home tutors for free</h2>
             <form action="" class="flex justify-between items-center">
-                <input type="text" name="" id="" placeholder="Subject / Skill" class="text-md p-2 mr-1 w-[45%]" >
+                <div class="relative w-[45%] mr-1" >
+                    <input type="text" name="" id="subject_input" placeholder="Subject / Skill" class="text-md p-2 mr-1 w-[100%]" >
+                    <div id="prefrence-items" class="absolute bg-white flex flex-col w-[100%] border-[1px] border-gray-400 " >
+                        <!-- <a href="" class="p-1 hover:bg-blue-500" >HTML</a>
+                        <a href="" class="p-1 hover:bg-blue-500" >HTML</a>
+                        <a href="" class="p-1 hover:bg-blue-500" >HTML</a>
+                        <a href="" class="p-1 hover:bg-blue-500" >HTML</a>
+                        <a href="" class="p-1 hover:bg-blue-500" >HTML</a> -->
+                    </div>
+                </div>
                 <input type="text" name="" id="" placeholder="Location" class="text-md p-2 mr-1 w-[45%]" >
                 <button class="bg-[#727cf5] p-2 px-5">Search</button>
             </form>
@@ -184,6 +193,6 @@
 
     
 
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
 </body>
 </html>
