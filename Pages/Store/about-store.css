@@ -1,0 +1,87 @@
+.middle{
+    width: 75%;
+    margin: auto;
+}
+
+.middle >h1{
+    color: rgb(85,85,85);
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.middle >p{
+    font-size: 1.3em;
+    color: rgb(85,85,85);
+}
+
+.middle >li{
+    font-size: 1.5em;
+}
+
+.middle > .sell{
+    background-color: rgb(21,96,250);
+    color: white;
+    font-size: 1.2em;
+    padding: 2vb;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-top: 10px;
+}
+
+.middle > h2{
+    font-size: 1.5em;
+    color: rgb(88,85,85);
+}
+
+.middle > .comment{
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.input{
+    width: 80%;
+    height: 30vh;
+    border: none;
+    border: 1px solid rgb(85,85,85);
+    margin-bottom: 20px;
+}
+
+.post{
+    background-color: rgb(51,122,183);
+    color: white;
+    padding: 1.5vb;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: large;
+}
+
+
+.end{
+    display: flex;
+    background-color: rgb(34,34,34);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.end >.resources{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.7em;
+    padding-top: 20px;
+}
+
+.end >.resources >p{
+    border-bottom: 1px solid rgb(114,192,161);
+    font-weight: bold;
+}
+
+.end >.resources >a{
+    padding-bottom: 5px;
+    font-size: 0.8em;
+}
